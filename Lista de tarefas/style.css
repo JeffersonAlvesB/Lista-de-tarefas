@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e5cc3;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2rem 20px;
+}
+
+.container_main {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 20px;
+}
+
+.box_add {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.titulo {
+  font-size: 2.5rem;
+  color: #1e5cc3;
+}
+
+.box_ipt {
+  display: flex;
+  gap: 1rem;
+}
+
+.ipt_add {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.button_add {
+  font-size: 2rem;
+  padding: 0.5rem;
+  background-color: #1e5cc3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button_add:active {
+  background-color: #0f2d5f;
+}
+
+.container_lista {
+  margin-top: 2rem;
+}
+
+.list_li {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.check {
+  transform: scale(1.5);
+}
+
+.tarefa {
+  font-size: 1.3rem;
+  margin-left: 0.5rem;
+  word-wrap: break-word; /* Permite quebra de palavras longas */
+  overflow-wrap: break-word; /* Compatível com mais navegadores */
+  max-width: calc(100% - 3rem);
+}
+
+.delete {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  margin-left: auto;
+}
+
+.bi-x {
+  font-size: 2rem;
+}
+
+.riscado {
+  text-decoration: line-through;
+  color: gray;
+}
+
+@media screen and (max-width: 420px) {
+  .container_main {
+    max-width: 100%;
+  }
+
+  .titulo {
+    font-size: 2rem;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .box_ipt {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button_add {
+    width: 100px;
+  }
+}
