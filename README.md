@@ -10,7 +10,7 @@
 <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />
 <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
 
-<h2>Link do site: <a href="https://neon-shortbread-e20d06.netlify.app/">ListadeTarefas.com</a></h2>
+<h2>Link do site: <a href="https://listadetarefasjeff.netlify.app/">ListadeTarefas.com</a></h2>
 
 
 ![Captura de tela_24-9-2024_175627_127 0 0 1](https://github.com/user-attachments/assets/02fba726-91c3-44e9-9fea-5f9622ca852a)
